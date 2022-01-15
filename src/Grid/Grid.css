@@ -1,0 +1,32 @@
+.Grid__main{
+    display: flex;
+    background: #2c302d;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-around;
+   align-content: stretch;
+   align-items: flex-start;
+   row-gap: 2px;
+   column-gap: 5px;
+}
+
+.Grid__child {
+    margin: 5px;
+    height: 200px;
+    width: 200px; 
+    align-content: stretch;
+}
+
+.Grid__child > img {
+    height: 200px;
+    width: 200px;
+}
+.Grid__child:hover {
+    transition: 0.3s all ease-in-out;
+    transform: skew(1deg);
+    box-shadow: 5px 5px 25px white, -25px -25px 50px #2d302f;
+    cursor: pointer;
+}
