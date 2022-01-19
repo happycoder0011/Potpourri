@@ -1,28 +1,26 @@
 .Grid__main{
     display: flex;
+    position: relative;
     background: #2c302d;
     width: 100%;
-    height: 100%;
-    padding-top: 20px;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: space-around;
-   align-content: stretch;
-   align-items: flex-start;
-   row-gap: 2px;
-   column-gap: 5px;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: stretch;
+   align-content: space-between;
+   /* align-items: flex-start; */
+   
 }
 
 .Grid__child {
-    margin: 5px;
-    height: 200px;
-    width: 200px; 
-    align-content: stretch;
+    position: relative;
+    height: auto;
+    width: auto; 
 }
 
 .Grid__child > img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 .Grid__child:hover {
     transition: 0.3s all ease-in-out;

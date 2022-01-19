@@ -1,9 +1,8 @@
 import React from 'react'
-
-function Grid_Item({height='200px',width='200px'}) {
+function Grid_Item({image}) {
     return (
         <div className="Grid__child">
-            <img src='http://via.placeholder.com/150' height={height} width={width}/>
+            <img src={image} />
         </div>
     )
 }
