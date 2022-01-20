@@ -20,7 +20,7 @@
 .Grid__child > img {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
 .Grid__child:hover {
     transition: 0.3s all ease-in-out;
