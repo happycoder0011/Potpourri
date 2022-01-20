@@ -8,12 +8,18 @@ function Grid() {
   return (
     <div className="Grid__main">
      <Grid_Item image={images.twitter}/>
+     <Grid_Item />
+     <Grid_Item />
      <Grid_Item image ={images.drumkit}/>
+     <Grid_Item />
+     <Grid_Item />
+     <Grid_Item />
      <Grid_Item image={images.designsystem}/>
      <Grid_Item />
      <Grid_Item />
      <Grid_Item />
-
+     <Grid_Item />
+     
     </div>
   );
 }
